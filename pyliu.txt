@@ -1,0 +1,10 @@
+http://svn.corp.yahoo.com/view/yahoo/media/common/modules/article/trunk/var/ycb/master_delta.xml?revision=1075868&view=markup#253
+Just add line 263 to 265 to your property ycb setting.
+ex:
+<Setting dimensions="site,region,lang">
+<Node match="news,US,en-US">
+<Property name="content_bundle">
+<Property name="enabled">1</Property>
+</Property>
+</Node>
+</Setting> 
